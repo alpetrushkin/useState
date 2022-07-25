@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
    // let a = 1
-   let [a, setA] = useState(2)
+   let [a, setA] = useState(1)
 
    const onClickHandler = () => {
       setA(++a)
